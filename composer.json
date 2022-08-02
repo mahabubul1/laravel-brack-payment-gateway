@@ -1,0 +1,45 @@
+{
+    "name": "mahabub/brack-payment-gateway",
+    "type": "library",
+    "license": "MIT",
+    "description": "laravel brack payement gateway",
+    "homepage": "https://github.com/mahabubul1/brack-payment-gateway",
+    "keywords": [
+        "laravel",
+        "laravel-5.8",
+        "laravel-6",
+        "laravel-7",
+        "laravel-8",
+        "laravel-9.*",
+        "brack-payment-gateway",
+        "brack bank"
+    ],
+    "authors": [
+        {
+            "name": "Mahabubul Alam",
+            "email": "mahabubulalam952@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"=>7.4"
+    },
+
+    "require-dev": {
+        "laravel/framework": "^5.8 ||^6.0 ||^7.0 ||^8.0||^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mahabub\\BrackPayment\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mahabub\\BrackPayment\\BrackServiceProvider"
+            ]
+            
+        }
+    }
+    
+}
