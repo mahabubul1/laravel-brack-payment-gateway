@@ -10,7 +10,7 @@
         "laravel-6",
         "laravel-7",
         "laravel-8",
-        "laravel-9.*",
+        "laravel-9",
         "brack-payment-gateway",
         "brack bank"
     ],
